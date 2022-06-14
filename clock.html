@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div#contain{margin: auto;
+            /* position: relative; */
+            border: 2px solid red;
+            height: 612px;
+            width: 661px;
+            background-image: url(clockjs1.png);
+            
+        }
+        div#hstick{
+            position: relative;
+            border:2px solid black;
+            height: 143px;
+            width: 8px;
+            top: 159px;
+            left: 324px;
+            background-color: blue;
+            /* display: none; */
+            transform-origin: bottom;
+        }
+        div#mstick{
+            position: relative;
+            border:2px solid black;
+            height: 191px;
+            width: 8px;
+            top: -39px;
+            left: 317px;
+            background-color: rgb(94, 255, 0);
+            /* display: none; */
+            transform-origin: bottom;
+        }
+        div#sstick{
+            position:relative;
+            border:2px solid black;
+            height: 226px;
+            width: 8px;
+            top: -34px;
+            left: 329px;
+            background-color: rgb(255, 0, 170);
+            /* display: none; */
+            transform-origin: top;
+        }
+        
+    </style>
+    <script src="clock.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="contain" class="container">
+        <div id="hstick"></div>
+        <div id="mstick"></div>
+        <div id="sstick"></div>
+
+    </div>
+    
+</body>
+</html>
